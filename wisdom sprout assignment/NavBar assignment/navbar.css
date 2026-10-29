@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.whatsapp-navbar{
+    width: 100%;
+    min-height: 80px;
+    background-color: #202c33;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 15px;
+    color: white;
+}
+
+
+.group-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #6b7c85;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    flex-shrink: 0;
+}
+
+
+.group-details h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.group-details p {
+    font-size: 13px;
+    color: #aebac1;
+}
+
+.navbar-actions{
+    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: 30px;
+    
+    
+
+}
+
+.navbar-actions button{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.navbar-actions button {
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+.navbar-actions button:hover {
+    background-color: #374248;
+}
+
+
+.linkin-navbar{
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    padding: 20px;
+}
+
+.link-icon{
+    font-size: 35px;
+    
+}
+.search{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.search input{
+    font-size: 15px;
+}
+
+.actions2{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-left: auto;
+    
+}
+
+
+
+
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-item i,
+.nav-item span {
+    color: inherit;
+}
+
+.nav-item:hover,
+.nav-item:hover i,
+.nav-item:hover span {
+    color: black;
+}
+
