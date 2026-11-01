@@ -47,12 +47,61 @@
             grid-area: ft;
             background-color: blueviolet;
         }
+
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minimax(150px,1fr));
+            gap: 10px;
+        
+        }
+        .gallery img{
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+
+        .dashboard{
+            display: grid;
+            grid-template-areas: 
+                    "hh hh hh hh"
+                    "nv m m as"
+                    "ft ft ft ft";
+            grid-template-rows: 80px 300px 60px;
+            
+            width: 100%;        ;
+            height: 600px;
+
+        }
+
+        .dash-header{
+            grid-area: hh;
+            background-color: lightblue;
+        }
+        .dash-nav{
+            grid-area: nv;
+            background-color: lightgreen;
+        }
+        .dash-main{
+            grid-area: m;
+            background-color: lightyellow;
+        }
+        .dash-side{
+            grid-area: as;
+            background-color: lightcoral;
+        }
+        .dash-footer{
+            grid-area: ft;
+            background-color: lightgrey;
+        }
     </style>
     
 </head>
 
 <body>
+    <h2>Assignment 1</h2>
     <div class="grid-container">
+        
         <div class="box">1</div>
         <div class="box">2</div>
         <div class="box">3</div>
@@ -65,13 +114,36 @@
     </div>
 
 
-
+    <h2>Assignment 2</h2>
     <div class="header-container">
-
         <header class="header">Header</header>
         <aside class="aside">Sidebar</aside>
         <main class="main">Main Content</main>
         <footer class="footer">Footer</footer>
     </div>
+
+
+    <div class="auto-fit">
+        <h2>Assignment 3</h2>
+        <img src="assets/images.jpg" alt="image1">
+        <img src="assets/images.jpg" alt="image2">
+        <img src="assets/images.jpg" alt="image3">
+        <img src="assets/images.jpg" alt="image4">
+        <img src="assets/images.jpg" alt="image5">
+        <img src="assets/images.jpg" alt="image6">
+
+    </div>
+
+    <h2>Assignment 4</h2>
+
+    <div class="dashboard">
+        <header class="dash-header">Header</header>
+        <nav class="dash-nav">Navigation</nav>
+        <main class="dash-main">Main</main>
+        <aside class="dash-side">Sidebar</aside>
+        <footer class="dash-footer">Footer</footer>
+    </div>
+
+
     
 </body>
