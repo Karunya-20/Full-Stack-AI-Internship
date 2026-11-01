@@ -111,6 +111,87 @@
             height: 150px;
             object-fit: cover;  
         }
+
+
+        .image-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 200px 200px 50px;
+            grid-template-areas: 
+                "img1 img2 img2"
+                "img3 img3 img4"
+                "img5 img6 img7";
+
+            gap: 10px;
+            width: 700px;
+
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .image1{
+            grid-area: img1;
+        }
+
+        .image2{
+            grid-area: img2;
+        }
+        .image3{
+            grid-area: img3;
+        }
+        .image4{
+            grid-area: img4;
+        }
+        .image5{
+            grid-area: img5;
+        }
+        .image6{
+            grid-area: img6;
+        }
+        .image7{
+            grid-area: img7;
+        }
+
+        .responsive-grid{
+            display: grid;
+            grid-template-rows: 40px 150px 150px 40px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-areas: 
+                "nv nv nv nv"
+                "s m m m"
+                "s c1 c2 c3"
+                "s f f f";
+
+            gap: 10px;
+            
+        }
+        
+        .nav{grid-area: nv; background-color: aquamarine;}
+        .side{grid-area: s;background-color: cyan;}
+        .main1{grid-area: m; background-color: lightblue;}
+        .cont1{grid-area: c1;background-color: turquoise;}
+        .cont2{grid-area: c2;background-color: mediumaquamarine;}
+        .cont3{grid-area: c3;background-color: lightgreen;}
+        .foot{grid-area: f;background-color: #16d6ae;}
+
+        @media (max-width: 600px) {
+
+            .responsive-grid {
+                grid-template-columns: 1fr;
+                grid-template-rows: 40px 40px 250px 110px 110px 110px 70px;
+                grid-template-areas:
+                    "nv"
+                    "s"
+                    "m"
+                    "c1"
+                    "c2"  
+                    "c3"
+                    "f";
+            }
+        }
     </style>
     
 </head>
@@ -187,6 +268,44 @@
     
     </div>
 
+    <h2>assignment ||</h2>
+
+    <div class="image-container">
+        <div class="image1">
+            <img src="assets/1.png" alt="img1">
+
+        </div>
+        <div class="image2">
+            <img src="assets/2.png" alt="img2">
+        </div>
+        <div class="image3">
+            <img src="assets/3.png" alt="img3">
+        </div>
+        <div class="image4">
+            <img src="assets/4.png" alt="img4">
+        </div>
+        <div class="image5">
+            <img src="assets/1.png" alt="img5">
+        </div>
+        <div class="image6">
+            <img src="assets/2.png" alt="img6">
+        </div>
+        <div class="image7">
+            <img src="assets/3.png" alt="img7">
+        </div>
+    </div>
+
+
+    <h2>responsive grid</h2>
+    <div class="responsive-grid">
+        <header class="nav">Navbar</header>
+        <aside class="side">SideBar</aside>
+        <main  class="main1">Main</main>
+        <div class="cont1">Content 1</div>
+        <div class="cont2">Content 2</div>
+        <div class="cont3">Content 3</div>
+        <footer class="foot">Footer</footer>
+    </div>
 
     
 </body>
