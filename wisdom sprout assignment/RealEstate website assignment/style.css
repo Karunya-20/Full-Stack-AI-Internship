@@ -1,5 +1,4 @@
 
-/* GENERAL */
 * {
     box-sizing: border-box;
 }
@@ -10,7 +9,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* NAVBAR */
 .navbar {
     background-color: white;
     display: flex;
@@ -625,30 +623,83 @@ body {
     height: 20px;
 }
 
-
-
-
-.ns{
-    background-color: #5C5C5C;
+.footers {
+    background-color: #333;
     color: white;
-    height: 114px;
-    display: flex;
-    padding: 10px;
-    text-align: center;
+    border-top: 5px solid #2196f3;
+    width: 100%;
+}
+
+.ns {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
     align-items: center;
-    
+    padding: 30px 10%;
+    border-bottom: 1px solid #555;
 }
-.ns h2{
-    margin-left: 150px;
-    letter-spacing: 1px;
-    font-size: 24px;
+
+.ns h2 {
+    font-size: 23px;
 }
-.ns input{
-    margin-left: auto;
-    height: 39px;
-    width: 450px;
-    border-radius: 20px;
-    margin-right: 200px;
+
+.ns input {
+    width: 100%;
+    padding: 12px 18px;
     border: none;
-    padding: 12px 20px;
+    border-radius: 30px;
+    box-sizing: border-box;
 }
+
+.logofooter {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 40px 10%;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.brand-logo img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+
+.brand-logo h2 {
+    font-size: 30px;
+}
+
+.footer-brand p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.foot-grid h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.foot-grid ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.foot-grid li {
+    margin-bottom: 12px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.foot-grid li::before {
+    content: "•";
+    color: #2196f3;
+    position: absolute;
+    left: 0;
+}
+
