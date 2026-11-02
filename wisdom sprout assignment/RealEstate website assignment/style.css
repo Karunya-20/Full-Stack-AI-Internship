@@ -183,6 +183,7 @@ body {
 .heading h4 {
     font-size: 30px;
     margin: 0 0 5px;
+    font-weight: 400;
 }
 
 .heading p {
@@ -291,6 +292,7 @@ body {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 0 15px;
+    font-weight: 400;
 }
 
 .text p {
@@ -450,4 +452,95 @@ body {
     margin-top: 5px;
     width: 50%;
     justify-self: end;
+}
+
+
+
+.fl{
+  
+    height: 675px;
+    width: 100%;
+    background-color: #fff;
+    padding: 40px 0;
+    box-sizing: border-box;
+
+}
+
+.content{
+    text-align: center;
+}
+
+.content h3{
+    font-size: 30px;
+    padding-top: 40px;
+    margin-bottom: 7px;
+    font-weight: 400;
+}
+.content p{
+    color: grey;
+    margin-top: 0;
+}
+
+.image-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px ;
+    grid-template-areas: "c1 c2 c3";
+
+    gap: 40px;
+    padding: 30px;
+    width: 100%;
+    max-width: 1304px;
+    height: 65%;
+    margin: auto;
+
+    
+
+}
+.image-cards img{
+    object-fit: cover;
+    width: 360px;
+    border: none;
+    border-radius: 10px;
+    height: 323px;
+}
+
+.image-cards h3{
+    font-weight: 530;
+}
+.image-cards p{
+    font-size: 15px;
+    color: grey;
+}
+.c1{
+    grid-area: c1;
+
+
+}
+.c2{
+    grid-area: c2;
+}
+.c3{
+    grid-area: c3;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 75px;
+  
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #2196f3;
 }
