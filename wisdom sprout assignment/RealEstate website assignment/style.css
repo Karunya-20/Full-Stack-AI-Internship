@@ -544,3 +544,77 @@ body {
 .dot.active {
     background-color: #2196f3;
 }
+
+
+
+.testimonals{
+    height: auto;
+    
+}
+
+
+.testo-head{
+    text-align: center;
+    padding-top: 50px;
+}
+.testo-head h3{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+.testo-head p{
+    color: grey;
+    margin-top: 0;
+
+}
+
+.testo-content {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    gap: 20px;
+    max-width: 1150px;
+    margin: auto    ;
+}
+
+.testo-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    text-align: center;
+    height: 305px;
+    margin-top: 70px;
+    padding: 0 0 30px 30px;
+
+}
+
+.testo-grid img{
+    object-fit: cover;
+    width: 130px;
+    height: 125px;
+    border-radius: 90px;
+}
+.testo-grid p{
+    max-width: 250px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.arrow-left{
+    background-color: #0878dc;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+
+}
+.arrow-right{
+    background-color: #0878dc;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+}
