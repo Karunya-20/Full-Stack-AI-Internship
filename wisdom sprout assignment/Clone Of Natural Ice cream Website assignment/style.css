@@ -52,3 +52,20 @@
     color: white;
     padding: 17px;
 }
+
+.nav{
+    background-color: rgb(58, 55, 55);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    
+}
+.nav a{
+    color: white;
+    gap: 20px;
+    text-decoration: none;
+    
+}
