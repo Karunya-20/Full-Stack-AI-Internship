@@ -1,3 +1,54 @@
 .customHeader{
     background-color: rgb(7, 108, 16);
 }
+
+.customcolor{
+    background-color: #39393f;
+
+}
+.header-section {
+    background-color: white;
+    padding: 40px 0;
+}
+
+/* Main header width */
+.header-inner {
+    width: 75%;
+    margin: auto;
+}
+
+/* Naturals logo */
+.naturals-img {
+    width: 180px;
+}
+
+/* Anniversary logo */
+.anniversary-column {
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+}
+
+.anniversary-img {
+    width: 55px;
+}
+
+/* Order button */
+.order-button {
+    background-color: #00ad50;
+    border: none;
+    padding: 10px 18px;
+}
+
+/* Search */
+.search-column .form-control {
+    background-color: #e5e5e5;
+    border: none;
+    padding: 15px;
+}
+
+.search-button {
+    background-color: #00ad50;
+    border: none;
+    width: 60px;
+    font-size: 25px;
+}
