@@ -111,17 +111,13 @@
 
 .section-humble{
     background-color: #ecf1d2;
-    padding: 90px;
     
 }
 
-.section-from{
+.section-from {
     background-color: white;
-    width: 75%;
     border: none;
     border-radius: 20px;
-    height: 350px;
-    
 }
 
 .header{
@@ -157,7 +153,8 @@
 .height2 img {
     width: 240px;
     max-width: 100%;
-    object-fit: cover;
+    
+    display: block;
 }
 
 
@@ -165,5 +162,5 @@
 .height1 img {
     width: 170px;
     max-width: 100%;
-    object-fit: cover;
+    
 }
