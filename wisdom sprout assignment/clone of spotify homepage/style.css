@@ -1,0 +1,75 @@
+.spotify-navbar {
+    background-color: black;
+    padding: 10px 25px;
+    gap: 25px;
+}
+
+.logo{
+    padding-left: 25px;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    display: block;
+}
+
+.home-btn {
+    background-color: #222;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 45px;
+    font-size: 28px;
+}
+.right-nav a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: #B3B3B3;
+    cursor: pointer;
+}
+
+.right-nav a:hover{
+    color: white;
+}
+
+.right-nav span{
+    color: #e4e4e4;
+    font-size: 30px;
+}
+.right-nav {
+    gap: 25px;
+}
+
+.install {
+    gap: 8px;
+    font-size: 15px;
+}
+
+.search-box {
+    width: 450px;
+}
+
+.search-box input {
+    flex: 1;
+    min-width: 0;
+    color: white;
+}
+
+.search-box input::placeholder {
+    color: #b3b3b3;
+    opacity: 1;
+}
+
+.right1-nav a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #B3B3B3;
+    font-weight: 500;
+    cursor: pointer;
+}
+.right1-nav a:hover{
+    color: white;
+}
