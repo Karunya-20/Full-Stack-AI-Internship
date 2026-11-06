@@ -147,3 +147,21 @@
     font-size: 15px;
     
 }
+
+
+
+.available {
+    background-color: #13a538;
+}
+
+.height2 img {
+    width: 240px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.height1 img {
+    width: 170px;
+    max-width: 100%;
+    object-fit: cover;
+}
