@@ -91,13 +91,29 @@
     color: #ffffff;
 }
 
-.playlist-box,
-.podcast-box {
+.playlist-box {
     background-color: #1f1f1f;
     color: white;
     padding: 20px;
     border-radius: 8px;
     margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.playlist-box h5{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.podcast-box{
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+
 }
 
 .sidebar-footer{
@@ -117,8 +133,29 @@
     border: 1px solid grey;
     height: 30px;
     width: 100px;
+    margin: 22px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
 }
 
-.language-btn i{
-    padding: 50px;
+.footer-layout{
+    background: linear-gradient(to right, #8c53ba, #6384e2);
 }
+
+
+.footer-layout .text p:first-child {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.footer-layout .text p:last-child {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+
