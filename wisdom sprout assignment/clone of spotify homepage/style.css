@@ -1,3 +1,5 @@
+
+
 .spotify-navbar {
     background-color: black;
     padding: 10px 25px;
@@ -72,4 +74,51 @@
 }
 .right1-nav a:hover{
     color: white;
+}
+
+
+
+
+
+.spotify-layout {
+    background-color: #000000;
+}
+
+.sidebar {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.playlist-box,
+.podcast-box {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.sidebar-footer{
+    padding-top: 30px;
+}
+
+.sidebar-footer a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    padding: 20px;
+    
+}
+.language-btn{
+    background-color: #000000;
+    color: white;
+    border: 1px solid grey;
+    height: 30px;
+    width: 100px;
+}
+
+.language-btn i{
+    padding: 50px;
 }
