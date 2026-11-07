@@ -158,4 +158,12 @@
     font-weight: 500;
 }
 
+.footer-btn button{
+    height: 43px;
+    width: 130px;
+    border: 2px solid black;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
 
