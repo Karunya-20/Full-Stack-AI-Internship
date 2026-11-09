@@ -246,11 +246,15 @@
     font-size: 14px;
 }
 
+.artist-img{
+    gap: 10px;
+}
+
 
 .imgs img{
     padding: 10px;
-    height: 179px;
-    width: 185px;
+    height: 183px;
+    width: 190px;
     border: none;
     border-radius: 50%;
 }
