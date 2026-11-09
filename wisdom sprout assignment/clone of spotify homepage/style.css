@@ -250,13 +250,6 @@
     gap: 10px;
 }
 
-
-
-.artist-img{
-    text-decoration: none;
-}
-
-
 .imgs img{
     padding: 10px;
     height: 183px;
@@ -264,6 +257,88 @@
     border: none;
     border-radius: 50%;
 }
+
+.imgs h5{
+    color: #f3f3f3;
+    font-size: 16px;
+}
+
+.imgs p{
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.song-carousel{
+    position: relative;
+    width: 100%;
+}
+
+.artist-img{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.artist-img::-webkit-scrollbar {
+    display: none;
+}
+
+.imgs {
+    flex: 0 0 170px;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #282828;
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev-btn {
+    left: 5px;
+}
+
+.next-btn {
+    right: 5px;
+}
+
+.prev-btn::before {
+    content: "❮";
+}
+
+.next-btn::before {
+    content: "❯";
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background-color: #3e3e3e;
+}
+
+.prev-btn,
+.next-btn {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.song-carousel:hover .prev-btn,
+.song-carousel:hover .next-btn {
+    opacity: 1;
+}
+
 
 
 
