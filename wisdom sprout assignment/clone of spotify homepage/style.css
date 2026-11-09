@@ -400,8 +400,81 @@ body {
     scroll-behavior: smooth;
 }
 
+.song-cards::-webkit-scrollbar {
+    display: none;
+}
+.song-cards::-webkit-scrollbar-track {
+    background-color: #121212;
+}
+
 .song-cards .card {
     flex: 0 0 170px;
+}
+
+
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #282828;
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev-btn {
+    left: 5px;
+}
+
+.next-btn {
+    right: 5px;
+}
+
+.prev-btn::before {
+    content: "❮";
+}
+
+.next-btn::before {
+    content: "❯";
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background-color: #3e3e3e;
+}
+
+.prev-btn,
+.next-btn {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.carousel:hover .prev-btn,
+.carousel:hover .next-btn {
+    opacity: 1;
+}
+
+.head-img img{
+    height: 170px;
+    border: none;
+    border-radius: 10px; 
+}
+
+.featured{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 
