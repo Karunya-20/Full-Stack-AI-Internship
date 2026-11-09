@@ -235,11 +235,15 @@
 
 
 
-.popular-title a{
+.popular-artist{
     font-size: 25px;
     text-decoration: none;
     color: white;
     font-weight: 700;
+}
+
+.show-all{
+    font-size: 14px;
 }
 
 
