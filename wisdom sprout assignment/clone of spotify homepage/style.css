@@ -251,6 +251,12 @@
 }
 
 
+
+.artist-img{
+    text-decoration: none;
+}
+
+
 .imgs img{
     padding: 10px;
     height: 183px;
