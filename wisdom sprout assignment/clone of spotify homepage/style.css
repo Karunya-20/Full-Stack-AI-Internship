@@ -459,6 +459,10 @@ body {
     transition: opacity 0.3s ease;
 }
 
+
+
+
+
 .carousel:hover .prev-btn,
 .carousel:hover .next-btn {
     opacity: 1;
@@ -469,6 +473,13 @@ body {
     border: none;
     border-radius: 10px; 
 }
+
+
+
+
+
+
+
 
 .featured{
     font-size: 25px;
