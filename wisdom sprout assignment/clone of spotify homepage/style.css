@@ -493,17 +493,17 @@ body {
 }
 
 
-
-
-
-
-
-
 .featured{
     font-size: 25px;
     color: white;
     text-decoration: none;
     font-weight: 700;
+}
+
+.last-text{
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 
