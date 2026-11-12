@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Fest Registration Form</title>
+</head>
+
+<body>
+
+    <div class="registration-form">
+
+        <h1>College Fest Registration Form</h1>
+
+        <form>
+
+            <label>Full Name:</label>
+            <input type="text" name="fullname" placeholder="Enter your name" required>
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="phone" placeholder="Enter phone number" required>
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+            <br><br>
+
+            <label>Course:</label>
+            <select name="course">
+                <option value="">Select Course</option>
+                <option value="Computer Engineering">Computer Engineering</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="Civil">Civil</option>
+                <option value="Electrical">Electrical</option>
+            </select>
+            <br><br>
+
+            <label>Event Selection:</label>
+            <br>
+            <input type="checkbox" name="event" value="Dance"> Dance
+            <input type="checkbox" name="event" value="Singing"> Singing
+            <input type="checkbox" name="event" value="Coding"> Coding
+            <br><br>
+
+            <label>Event Date:</label>
+            <input type="date" name="eventdate">
+            <br><br>
+
+            <button type="submit">Register Now</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
