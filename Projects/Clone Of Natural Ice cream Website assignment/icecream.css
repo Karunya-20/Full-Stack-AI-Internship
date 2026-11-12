@@ -1,0 +1,166 @@
+.customHeader{
+    background-color: rgb(7, 108, 16);
+}
+
+.customcolor{
+    background-color: #39393f;
+
+}
+.header-section {
+    background-color: white;
+    padding: 16px 0;
+    height: 90px;
+}
+
+/* Main header width */
+.header-inner {
+    width: 75%;
+    margin: auto;
+}
+
+/* Naturals logo */
+.naturals-img {
+    width: 180px;
+}
+
+/* Anniversary logo */
+.anniversary-column {
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+}
+
+.anniversary-img {
+    width: 55px;
+}
+
+/* Order button */
+.order-button {
+    background-color: #00ad50;
+    border: none;
+    padding-bottom: 20px;
+    height: 30px;
+
+}
+
+
+
+/* Search */
+.search-column .form-control {
+    background-color: #e5e5e5;
+    border: none;
+    padding: 15px;
+    height: 40px;
+}
+
+.search-button {
+    background-color: #00ad50;
+    border: none;
+    width: 60px;
+    font-size: 25px;
+    height: 40px;
+    
+}
+
+.input-group{
+    width: 490px;
+}
+
+.video{
+    width: 785px;
+}
+
+.tree-section{
+    background-color: #ecf1d2;
+    padding-top: 25px;
+}
+
+.quote-box{
+    padding-top: 30px;
+}
+
+.gallery-section{
+    background-color: #ecf1d2;
+    padding-top: 40px;
+}
+
+
+.gallery-wrapper {
+    height: 340px;
+    overflow: hidden;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.gallery-wrapper:hover .gallery-img {
+    transform: scale(1.1);
+}
+
+
+.carousel-img{
+    width: 100%;
+    height: 400px;
+    display: block;
+
+}
+
+
+.section-humble{
+    background-color: #ecf1d2;
+    
+}
+
+.section-from {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.header{
+    padding: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.section-from p{
+    padding: 0 40px;
+    color: grey;
+    font-size: 15px;
+}
+.btn1{
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00ad50;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 15px;
+    
+}
+
+
+
+.available {
+    background-color: #13a538;
+}
+
+.height2 img {
+    width: 240px;
+    max-width: 100%;
+    
+    display: block;
+}
+
+
+
+.height1 img {
+    width: 170px;
+    max-width: 100%;
+    
+}
