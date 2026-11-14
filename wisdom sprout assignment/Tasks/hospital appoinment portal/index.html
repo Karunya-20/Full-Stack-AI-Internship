@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Appointment Booking</title>
+</head>
+<body>
+
+    <h1>Hospital Appointment Booking</h1>
+    <p>Book your appointment by filling out the form below.</p>
+
+    <form>
+
+        <h3>Patient Details</h3>
+
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter your name" required>
+        <br><br>
+
+        <label>Age:</label><br>
+        <input type="number" placeholder="Enter your age" required>
+        <br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email">
+        <br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" placeholder="Enter phone number" required>
+        <br><br>
+
+        <hr>
+
+        <h3>Appointment Details</h3>
+
+        <label>Select Department:</label><br>
+        <select required>
+            <option value="">Select Department</option>
+            <option>Cardiology</option>
+            <option>Dermatology</option>
+            <option>Neurology</option>
+            <option>Orthopedics</option>
+            <option>General Medicine</option>
+            <option>Dentistry</option>
+        </select>
+        <br><br>
+
+        <label>Select Doctor:</label><br>
+        <select required>
+            <option value="">Select Doctor</option>
+            <option>Dr. Amit Sharma</option>
+            <option>Dr. Priya Patel</option>
+            <option>Dr. Rahul Verma</option>
+            <option>Dr. Sneha Joshi</option>
+        </select>
+        <br><br>
+
+        <label>Appointment Date:</label><br>
+        <input type="date" required>
+        <br><br>
+
+        <label>Appointment Time:</label><br>
+        <input type="time" required>
+        <br><br>
+
+        <hr>
+
+        <h3>Medical Information</h3>
+
+        <label>Symptoms:</label><br>
+        <textarea rows="4" cols="40" placeholder="Describe your symptoms"></textarea>
+        <br><br>
+
+        <label>Medical History:</label><br>
+        <textarea rows="4" cols="40" placeholder="Enter your previous medical history"></textarea>
+        <br><br>
+
+        <label>Any Allergies?</label><br>
+        <input type="text" placeholder="Mention allergies if any">
+        <br><br>
+
+        <input type="checkbox"> I confirm that the information provided is correct.
+        <br><br>
+
+        <button type="submit">Book Appointment</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
